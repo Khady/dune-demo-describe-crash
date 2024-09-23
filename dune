@@ -1,0 +1,9 @@
+(executable
+ (enabled_if
+  (>= %{ocaml_version} 5.0))
+ (name an_exe)
+ (package dune_bug)
+ (public_name public_exe)
+ (libraries
+  unix
+  ))
